@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#ffffff; 
+    background:#000000; 
     color:#000000; /*font*/
 }
 
@@ -76,4 +76,36 @@ nav ul li a:hover::after{
 
 .header-text h1 span{
     color: #ff044f;
+}
+
+/* about section */
+#about{
+    padding: 100px;
+    color: #ababab;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+   flex-basis: 35%;
+}
+
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600px;
+    color: black;
 }
